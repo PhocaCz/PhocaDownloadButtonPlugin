@@ -1,0 +1,1 @@
+Phoca Download Button Plugin is Joomla! CMS extension. Plugin which displays button in article to easily add Phoca Download plugin code.
