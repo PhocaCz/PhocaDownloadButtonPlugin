@@ -12,7 +12,7 @@ jimport( 'joomla.plugin.plugin' );
 
 class plgButtonPhocaDownload extends JPlugin
 {
-	
+
 	public function __construct(& $subject, $config)
 	{
 		parent::__construct($subject, $config);
@@ -20,24 +20,24 @@ class plgButtonPhocaDownload extends JPlugin
 	}
 
 	function onDisplay($name, $asset, $author) {
-		
+
 		$app = JFactory::getApplication();
 
 		$document =  JFactory::getDocument();
 		$template = $app->getTemplate();
-		
+
 		$enableFrontend = $this->params->get('enable_frontend', 0);
-		
+
 		if ($template != 'beez_20') {
-			JHTML::stylesheet( 'plugins/editors-xtd/phocadownload/assets/css/phocadownload.css' );
+			JHTML::stylesheet( 'media/plg_editors-xtd_phocadownload/css/phocadownload.css' );
 		}
-		
+
 		$link = 'index.php?option=com_phocadownload&amp;view=phocadownloadlinks&amp;tmpl=component&amp;e_name='.$name;
 
 		JHTML::_('behavior.modal');
 
 
-		
+
 		$button = new JObject;
 		$button->modal = true;
 		$button->class = 'btn';
@@ -45,13 +45,13 @@ class plgButtonPhocaDownload extends JPlugin
 		$button->text = JText::_('PLG_EDITORS-XTD_PHOCADOWNLOAD_FILE');
 		$button->name = 'file';
 		$button->options = "{handler: 'iframe', size: {x: 800, y: 500}}";
-		
+
 		if ($enableFrontend == 0) {
-			if (!$app->isAdmin()) {
+			if (!$app->isClient('administrator')) {
 				$button = null;
 			}
 		}
-	
+
 		return $button;
 	}
 }

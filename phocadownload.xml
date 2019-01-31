@@ -1,34 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension group="editors-xtd" method="upgrade" type="plugin" version="3">
+<extension type="plugin" group="editors-xtd" method="upgrade" version="3">
 	<name>plg_editors-xtd_phocadownload</name>
-	<creationDate>07/11/2014</creationDate>
 	<author>Jan Pavelka (www.phoca.cz)</author>
+	<creationDate>31/01/2019</creationDate>
 	<authorEmail></authorEmail>
-	<authorUrl>www.phoca.cz</authorUrl>
+	<authorUrl>https://www.phoca.cz</authorUrl>
 	<copyright>Jan Pavelka</copyright>
 	<license>GNU/GPL</license>
-	<version>3.0.6</version>
-	
+	<version>3.1.7</version>
 	<description>PLG_EDITORS-XTD_PHOCADOWNLOAD_DESCRIPTION</description>
-	
-	<files>
-		<filename plugin="phocadownload">phocadownload.php</filename>
+	<projectName>PhocaDownloadButtonPlugin</projectName>
+
+	<media destination="plg_editors-xtd_phocadownload" folder="media">
+		<folder>css</folder>
+		<folder>images</folder>
 		<filename>index.html</filename>
-		<folder>assets</folder>
+	</media>
+
+	<files>
+		<filename plugin="phocadownload">index.html</filename>
+		<filename plugin="phocadownload">phocadownload.php</filename>
 	</files>
-	
+
 	<languages>
 		<language tag="en-GB">language/en-GB/en-GB.plg_editors-xtd_phocadownload.ini</language>
 		<language tag="en-GB">language/en-GB/en-GB.plg_editors-xtd_phocadownload.sys.ini</language>
 	</languages>
-	
+
 	<administration>
 		<languages>
 			<language tag="en-GB">language/en-GB/en-GB.plg_editors-xtd_phocadownload.ini</language>
 			<language tag="en-GB">language/en-GB/en-GB.plg_editors-xtd_phocadownload.sys.ini</language>
 		</languages>
 	</administration>
-
+	
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
@@ -39,4 +44,8 @@
 			</fieldset>
 		</fields>
 	</config>
+
+	<updateservers>
+		<server type="extension" name="PLG_EDITORS-XTD_PHOCADOWNLOAD"><![CDATA[https://raw.githubusercontent.com/PhocaCz/PhocaDownloadButtonPlugin/master/manifest.xml]]></server>
+	</updateservers>
 </extension>
