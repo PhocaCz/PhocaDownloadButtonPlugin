@@ -2,7 +2,7 @@
 	<update>
 		<name><![CDATA[ Phoca Download Button Plugin ]]></name>
 		<description><![CDATA[ Phoca Download Button Plugin is a Joomla! plugin which enables a Phoca Download button in editor. With help of this button you can easily add Phoca Download Plugin code to your articles. ]]></description>
-		<element>plg_editors-xtd_phocadownload</element>
+		<element>phocadownload</element>
 		<folder>editors-xtd</folder>
 		<type>plugin</type>
 		<version>3.1.7</version>
@@ -17,6 +17,6 @@
 		<maintainerurl>https://www.phoca.cz/</maintainerurl>
 		<section>Updates</section>
 		<targetplatform name="joomla" version="3.9"/>
-		<client>1</client>
+		<client>0</client>
 	</update>
 </updates>
