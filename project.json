@@ -8,6 +8,8 @@
 	"projectInitials" : "PD",				  
 	"description": "Phoca Download Button Plugin is a Joomla! plugin which enables a Phoca Download button in editor. With help of this button you can easily add Phoca Download Plugin code to your articles.",
 	"projectUrl": "https://www.phoca.cz/phocadownload-button",
+	"projectMainComponent": "Phoca Download",
+	"projectMainComponentInfoUrl": "https://www.phoca.cz/project/phocadownload-joomla-download",
 	"projectDocumentationUrl": "https://www.phoca.cz/documentation/category/58-phoca-download-button-plugin",
 	"projectDemo" : {
 		"Joomla! 1.5 Demo": "https://www.phoca.cz/demo/"
