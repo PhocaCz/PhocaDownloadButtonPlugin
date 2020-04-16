@@ -26,6 +26,8 @@ Phoca Download Button Plugin is a Joomla! plugin which enables a Phoca Download 
 
 
 
+
+
 ## Support
 
 [Phoca Forum](https://www.phoca.cz/forum)
@@ -52,7 +54,7 @@ Phoca Download Button Plugin is a Joomla! plugin which enables a Phoca Download 
 
 ## Version
 
-3.1.7
+3.2.0
 
 
 

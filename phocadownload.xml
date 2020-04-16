@@ -2,12 +2,12 @@
 <extension type="plugin" group="editors-xtd" method="upgrade" version="3">
 	<name>plg_editors-xtd_phocadownload</name>
 	<author>Jan Pavelka (www.phoca.cz)</author>
-	<creationDate>02/02/2019</creationDate>
+	<creationDate>16/04/2020</creationDate>
 	<authorEmail></authorEmail>
 	<authorUrl>https://www.phoca.cz</authorUrl>
 	<copyright>Jan Pavelka</copyright>
 	<license>GNU/GPL</license>
-	<version>3.1.7</version>
+	<version>3.2.0</version>
 	<description>PLG_EDITORS-XTD_PHOCADOWNLOAD_DESCRIPTION</description>
 	<projectName>PhocaDownloadButtonPlugin</projectName>
 
