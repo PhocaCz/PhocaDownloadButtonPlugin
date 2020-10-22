@@ -34,7 +34,7 @@ class plgButtonPhocaDownload extends JPlugin
 
 		$link = 'index.php?option=com_phocadownload&amp;view=phocadownloadlinks&amp;tmpl=component&amp;e_name='.$name;
 
-		JHTML::_('behavior.modal');
+		Joomla\CMS\HTML\HTMLHelper::_('behavior.modal');
 
 
 
