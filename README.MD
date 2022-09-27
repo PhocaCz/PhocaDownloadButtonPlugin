@@ -2,7 +2,7 @@
 
 
 
-![Phoca Download Button Plugin](https://github.com/PhocaCz/PhocaDownloadButtonPlugin/blob/master/phocadownload.png)
+![Phoca Download Button Plugin](https://github.com/PhocaCz/PhocaDownloadButtonPlugin/blob/master/phocadownload.png?raw=true)
 
 # Phoca Download Button Plugin
 
@@ -52,9 +52,13 @@ Phoca Download Button Plugin is a Joomla! plugin which enables a Phoca Download 
 
 
 
-## Version
+## Version (Joomla! 3.x)
 
 3.2.1
+
+## Version (Joomla! 4.x)
+
+4.0.4
 
 
 

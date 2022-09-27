@@ -1,4 +1,85 @@
 
-.button2-left .phocadownload {
-	background: url(../images/icon-button.png) 100% 0 no-repeat;
+
+
+#phocadownload-links .btn-box-submit {
+	text-align: right;
+} 
+
+#phocadownload-links .btn-box-back {
+	text-align: left;
+	margin-top: 2em;
+} 
+
+
+/* Phoca Download Editor Button Plugin */
+.plg-button-tbl {
+	width: 100%;
 }
+.plg-button-tbl tr {
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.plg-button-tbl tr td {
+
+	padding-top:5px;
+	padding-bottom: 5px;
+}
+
+.plg-button-insert {
+	margin-right: 5px;
+}
+
+#phocadownload-links .ph-icon-16-edb-sections {
+	background: #f8f9fa url('../../com_phocadownload/images/administrator/icon-16-edb-sections.png') no-repeat 5px center;
+}
+#phocadownload-links .ph-icon-16-edb-section {
+	background: #f8f9fa url('../../com_phocadownload/images/administrator/icon-16-edb-section.png') no-repeat  5px center;
+}
+#phocadownload-links .ph-icon-16-edb-category {
+	background: #f8f9fa url('../../com_phocadownload/images/administrator/icon-16-edb-category.png') no-repeat  5px center;
+}
+
+#phocadownload-links .ph-icon-16-edb-categories {
+	background: #f8f9fa url('../../com_phocadownload/images/administrator/icon-16-edb-categories.png') no-repeat  5px center;
+}
+#phocadownload-links .ph-icon-16-edb-file {
+	background: #f8f9fa url('../../com_phocadownload/images/administrator/icon-16-edb-file.png') no-repeat 5px center;
+}
+#phocadownload-links .ph-icon-16-edb-play {
+	background: #f8f9fa url('../../com_phocadownload/images/administrator/icon-16-edb-play.png') no-repeat 5px center;
+}
+#phocadownload-links .ph-icon-16-edb-preview {
+	background: #f8f9fa url('../../com_phocadownload/images/administrator/icon-16-edb-preview.png') no-repeat 5px center;
+}
+#phocadownload-links a {
+	text-decoration:underline;
+}
+
+#phocadownload-links ul li {
+	list-style-type:none;
+	padding: 10px 10px 10px 30px;
+	margin: 0.75em;
+	border-radius: 3px;
+	border: 1px solid #e0e0e0;
+	display: block;
+	width: auto;
+}
+
+/*
+#phocadownload-links .ph-icon-16-edb-back {
+	background: #fdfdfd url('../../com_phocadownload/images/administrator/icon-16-edb-back.png') no-repeat 5px center;
+	list-style-type:none;
+	width: 2em;
+}
+*/
+#phocadownload-links .btn-box-back a {
+	text-decoration:none;
+}
+
+.ph-warning {
+	background-color: #fecf6d;
+	margin: 1em 0;
+	padding: 1em;
+	border-radius: 3px;
+}
+
