@@ -2,7 +2,7 @@
 <extension type="plugin" group="editors-xtd" method="upgrade" version="4.0">
 	<name>plg_editors-xtd_phocadownload</name>
 	<author>Jan Pavelka (www.phoca.cz)</author>
-	<creationDate>27/09/2022</creationDate>
+	<creationDate>28/09/2022</creationDate>
 	<authorEmail></authorEmail>
 	<authorUrl>https://www.phoca.cz</authorUrl>
 	<copyright>Jan Pavelka</copyright>
