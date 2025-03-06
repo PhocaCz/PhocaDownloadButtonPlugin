@@ -7,6 +7,7 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
  */
 
+use Joomla\CMS\Factory;
 use Joomla\CMS\Language\Text;
 use Joomla\CMS\Object\CMSObject;
 use Joomla\CMS\Plugin\CMSPlugin;
@@ -23,9 +24,9 @@ class plgButtonPhocaDownload extends CMSPlugin
 
 	function onDisplay($name) {
 
-		$app = JFactory::getApplication();
+		$app = Factory::getApplication();
 
-		$document =  JFactory::getDocument();
+		$document =  Factory::getDocument();
 		$template = $app->getTemplate();
 
 		$enableFrontend = $this->params->get('enable_frontend', 0);
